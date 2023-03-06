@@ -34,7 +34,7 @@ body {
 }
 .cabecalho__menu {
   display: flex;
-  gap: 80px;
+  gap: 2rem;
 }
 .cabecalho__menu__item {
   font-family: var(--fonte-secundaria);
@@ -122,11 +122,12 @@ img:hover {
 
 @media (max-width: 1200px) {
   .cabecalho {
-    padding: 10%;
+    padding: 5%;
   }
 
   .cabecalho__menu {
     justify-content: center;
+    gap: 1rem;
   }
 
   .apresentacao {

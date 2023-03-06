@@ -50,9 +50,6 @@ body {
 .textoDestaque {
   color: var(--cor-terciaria);
 }
-img:hover {
-  /* transform: scale(1.5); */
-}
 .apresentacao {
   padding: 5% 15%;
   display: flex;
@@ -137,5 +134,9 @@ img:hover {
 
   .apresentacao__conteudo {
     width: auto;
+  }
+
+  .apresentacao__imagem {
+    width: 100%;
   }
 }

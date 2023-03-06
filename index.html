@@ -6,33 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
 
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a href="index.html" class="cabecalho__menu__item">Home</a>
+        <a href="about.html" class="cabecalho__menu__item">Sobre mim</a>
+        <a href="curriculum.html" class="cabecalho__menu__item">Currículo</a>
+      </nav>
+    </header>
+
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
-          Eleve seu negócio digital a outro nível com um
-          <strong class="tituloDestaque"> Frontend de qualidade</strong>
+          Eleve seu negócio digital a outro nível com
+          <strong class="tituloDestaque">Sistemas de qualidade</strong>
         </h1>
         <p class="apresentacao__conteudo__texto">
           Mussum Ipsum, cacilds vidis litro abertis. Aenean sit amet
           nisi.Delegadis gente finis,
           <strong class="textoDestaque">bibendum</strong> egestas augue arcu ut
-          est.Quem manda na minha terra sou euzis! 
+          est.
         </p>
+
         <div class="apresentacao__links">
-          <a href="https://www.instagram.com/uiracavalcante/" class="apresentacao__links_link">Instagram</a>
-          <a href="https://github.com/uiratan" class="apresentacao__links_link">GitHub</a>
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+          <a
+            href="https://github.com/uiratan/"
+            class="apresentacao__links_link"
+          >
+            <img src="./assets/github.png" alt="" />
+            GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/uiratan/"
+            class="apresentacao__links_link"
+          >
+            <img src="./assets/linkedin.png" alt="" />
+            Linkedin</a
+          >
+          <a href="" class="apresentacao__links_link">
+            <img src="./assets/twitter.png" alt="" />
+            Twitter</a
+          >
         </div>
       </section>
-      <img src="uira.jpg" alt="Foto do Uiratan Cavalcante" />
-      <!-- <img src="img-grande.jpg"> -->
+      <img src="./assets/uira.jpg" alt="Foto do Uiratan Cavalcante" />
     </main>
 
-    <footer></footer>
+    <footer class="rodape">Desenvolvido por DeVasc ™Ⓡ</footer>
   </body>
 </html>
